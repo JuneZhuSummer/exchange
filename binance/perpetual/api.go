@@ -12,6 +12,11 @@ import (
 	"time"
 )
 
+const (
+	BaseURL = "https://fapi.binance.com"
+	TestUrl = "https://testnet.binancefuture.com"
+)
+
 type API struct {
 	endpoint  string
 	key       string
